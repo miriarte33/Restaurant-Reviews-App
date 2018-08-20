@@ -1,6 +1,10 @@
+#restaurants-list {
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+}
 #restaurants-list li {
-	width: 500px; 
-	padding: 0; 
+	width: 250px; 
 }
 #restaurants-list li a {
 	margin-bottom: 15px; 
@@ -22,3 +26,4 @@
 #reviews-list li p {
 	font-size: 20px;
 }
+
