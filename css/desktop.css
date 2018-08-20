@@ -1,0 +1,39 @@
+#restaurants-list li {
+	width: 800px; 
+}
+
+/* Filter Menu */
+.filter-options {
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+.filter-options h2 {
+	width: 100%;
+	text-align: center; 
+}
+.filter-options select {
+	width: 45%; 
+}
+#neighborhoods-select {
+	font-size: 11pt;
+}
+.inside #maincontent {
+}
+.inside #map-container {
+	margin: 0 auto;
+	height: 600px;
+	width: 90%;
+}
+.inside .info {
+	width: 800px;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1100px) {
+	#restaurants-list li {
+		width: 1000px; 
+	}
+	.inside .info {
+		width: 1000px;
+	}
+}

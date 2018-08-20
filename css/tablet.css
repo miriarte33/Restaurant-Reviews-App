@@ -1,0 +1,24 @@
+#restaurants-list li {
+	width: 500px; 
+	padding: 0; 
+}
+#restaurants-list li a {
+	margin-bottom: 15px; 
+}
+.inside #map-container {
+	width: 100%;
+	height: 400px; 
+}
+#restaurant-img,
+#restaurant-cuisine {
+	width: 90%; 
+}
+#restaurant-hours {
+	width: 90%; 
+}
+#restaurant-hours td {
+	font-size: 20px;
+}
+#reviews-list li p {
+	font-size: 20px;
+}
